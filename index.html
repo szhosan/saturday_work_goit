@@ -31,34 +31,43 @@
               <span class="header-subtitle">Турагенство</span></span
             >
           </a>
-
+          
           <ul class="header-contacts">
             <li>
-              <a href="tel:89243541540">8-924-3-541-540</a>
+              <a class="header-contacts-link" href="tel:89243541540">            
+                <svg class="header-contacts-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-tel"></use>
+                </svg>
+                8-924-3-541-540
+              </a>
             </li>
             <li>
-              <a href="mailto:baikalholiday@mail.ru">baikalholiday@mail.ru</a>
+              <a class="header-contacts-link" href="mailto:baikalholiday@mail.ru">
+                <svg class="header-contacts-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-mail"></use>
+                </svg>
+                baikalholiday@mail.ru</a>
             </li>
           </ul>
-          <button type="button">Оставить заявку</button>
+          <button class="header-btn" type="button">Оставить заявку</button>
         </div>
 
-        <nav>
-          <ul>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
             <li>
-              <a href="">Бронирование</a>
+              <a class="header-nav-link" href="">Бронирование</a>
             </li>
             <li>
-              <a href="">Экскурсии</a>
+              <a class="header-nav-link" href="">Экскурсии</a>
             </li>
             <li>
-              <a href="">Туры на байкал</a>
+              <a class="header-nav-link" href="">Туры на байкал</a>
             </li>
             <li>
-              <a href="">О Байкале</a>
+              <a class="header-nav-link" href="">О Байкале</a>
             </li>
             <li>
-              <a href="">О нас</a>
+              <a class="header-nav-link" href="">О нас</a>
             </li>
           </ul>
         </nav>
@@ -77,7 +86,9 @@
 
           <button class="hero__button">Подобрать тур</button>
           <a class="hero__down-link" href="#">
-            <img src="./images/hero/down.svg" width="13" height="17" alt="" />
+            <svg width="13" height="17">
+              <use href="./images/sprite.svg#icon-down"></use>
+            </svg>
           </a>
         </div>
       </section>
@@ -212,39 +223,65 @@
       </section>
 
       <!-- Секция с направлениями деятельности -->
-      <section>
-        <h2>Основные направления деятельности</h2>
-        <ul>
-          <li>
-            <p>
+      <section class="activities">
+        <div class="container">
+          <h2 class="activities-title">Основные направления деятельности</h2>
+        <ul class="activities_list">
+          <li class="activities-item">
+            <svg class="activities-icon" height="84" width="84">
+              <use href="./images/sprite.svg#icon-group-1"></use>
+            </svg>
+            <p class="activities-description">
               Групповые и индивидуальные туры по Байкалу для российских и
               иностранных туристов
             </p>
           </li>
-          <li>
-            <p>
+          <li class="activities-item">
+            <svg class="activities-icon" height="84" width="84">
+              <use href="./images/sprite.svg#icon-group-2"></use>
+            </svg>
+            <p class="activities-description">
               Экскурсии по городу Улан-Удэ, Республике Бурятия,городу Иркутск
             </p>
           </li>
-          <li>
-            <p>Услуги гидов-переводчиков на любом иностранном языке</p>
+          <li class="activities-item">
+            <svg class="activities-icon" height="84" width="84">
+              <use href="./images/sprite.svg#icon-group-3"></use>
+            </svg>
+            <p class="activities-description">Услуги гидов-переводчиков на любом иностранном языке</p>
           </li>
-          <li>
-            <p>Круизы и прогулки по Байкалу на теплоходах и катерах</p>
+          <li class="activities-item">
+            <svg class="activities-icon" height="84" width="84">
+              <use href="./images/sprite.svg#icon-group-4"></use>
+            </svg>
+            <p class="activities-description">Круизы и прогулки по Байкалу на теплоходах и катерах</p>
           </li>
-          <li>
-            <p>Профессиональная организация охоты и рыбалки на Байкале</p>
+          <li class="activities-item">
+            <svg class="activities-icon" height="84" width="84">
+              <use href="./images/sprite.svg#icon-group-5"></use>
+            </svg>
+            <p class="activities-description">Профессиональная организация охоты и рыбалки на Байкале</p>
           </li>
-          <li>
-            <p>Аренда автотранспорта для экскурсий и пассажирских перевозок</p>
+          <li class="activities-item">
+            <svg class="activities-icon" height="84" width="84">
+              <use href="./images/sprite.svg#icon-group-6"></use>
+            </svg>
+            <p class="activities-description">Аренда автотранспорта для экскурсий и пассажирских перевозок</p>
           </li>
-          <li>
-            <p>Бронирование гостиниц в городе Улан-Удэ и на Байкале</p>
+          <li class="activities-item">
+            <svg class="activities-icon" height="84" width="84">
+              <use href="./images/sprite.svg#icon-group-7"></use>
+            </svg>
+            <p class="activities-description">Бронирование гостиниц в городе Улан-Удэ и на Байкале</p>
           </li>
-          <li>
-            <p>Организация индивидуальных туров и VIP-туров на Байкале</p>
+          <li class="activities-item">
+            <svg class="activities-icon" height="84" width="84">
+              <use href="./images/sprite.svg#icon-group-8"></use>
+            </svg>
+            <p class="activities-description">Организация индивидуальных туров и VIP-туров на Байкале</p>
           </li>
         </ul>
+        </div>
       </section>
 
       <section>
@@ -422,8 +459,16 @@
             <h2 class="photogallery-title">Фотогалерея</h2>
             <a class="photogallery-link" href="">Перейти в раздел</a>
             <ul class="photogallery-btn-list">
-              <li><button class="photogallery-btn" type="button"></button></li>
-              <li><button class="photogallery-btn" type="button"></button></li>
+              <li>
+                <button class="photogallery-btn" type="button">
+                  <svg height="24" width="12">
+                    <use href="./images/sprite.svg#icon-arr-left"></use>
+                  </svg>
+                </button>
+            </li>
+              <li><button class="photogallery-btn" type="button"><svg height="24" width="12">
+                <use href="./images/sprite.svg#icon-arr-right"></use>
+              </svg></button></li>
             </ul>
           </div>
           <ul class="phototogallery-content-list">
