@@ -301,8 +301,8 @@
       </section>
 
       <section class="offers">
-        <div class="container">
-          <h2 class="offers-title">Популярные предложения</h2>
+        <div class="container offers-wrapper">
+          <h2 class="page-title">Популярные предложения</h2>
           <ul class="offers-list">
             <li class="offers-item">
               <a href="">
@@ -447,42 +447,69 @@
               </a>
             </li>
           </ul>
-
-          <a class="offers-all-link" href="">
-            <div class="offres-all-container"></div>
-            <img
-              src="./images/offers/offer13.jpg"
-              alt="Фото с озером"
-              width="256"
-            />
-            <span class="offers-all-text">Показать все предложения</span>
-          </a>
+          <div class="offers-all-cont">
+            <a class="offers-all-link" href="">
+              <div class="offres-all-container"></div>
+              <img
+                src="./images/offers/offer13.jpg"
+                alt="Фото с озером"
+                width="256"
+              />
+              <span class="offers-all-text">Показать все предложения</span>
+            </a>
+          </div>
+          
         </div>
       </section>
 
-      <section>
-        <h2>Карта Байкала</h2>
+      <section class="map">
+        <div class="container">
+          <h2 class="page-title map-title">Карта Байкала</h2>
         <a href="">
           <img src="./images/baikal_map.jpg" alt="Карта Байкала" />
         </a>
+        </div>
+        
       </section>
+
+
+
       <!-- О Байкале -->
-      <section>
-        <h2>О Байкале</h2>
-        <p>
-          Озеро Байкал – глубочайшее и древнейшее озеро планеты. Древние жители
-          Прибайкалья называли его Священным морем и считали, что в Байкале нет
-          дна, обожествляли и наделяли его мистическими свойствами. Именно здесь
-          пронзительные чувства и скрытые способности человека находят выплеск.
-        </p>
-        <p>
-          Познается что-то новое не только в природе, но и в самом себе. Многие
-          посетившие Байкал люди утверждают, что озеро оказало большое влияние
-          на их дальнейшую жизнь.
-        </p>
-        <!-- Видео
-            <video></video>-->
-        <button type="button">Читать подробней</button>
+      <section class="about">
+        <div class="container about-wrapper">
+          <div class="about-left-cont">
+            <h2 class="page-title about-title">О Байкале</h2>
+
+            
+
+            <p class="about-desc">
+              Озеро Байкал – глубочайшее и древнейшее озеро планеты. Древние жители
+              Прибайкалья называли его Священным морем и считали, что в Байкале нет
+              дна, обожествляли и наделяли его мистическими свойствами. Именно здесь
+              пронзительные чувства и скрытые способности человека находят выплеск.
+            </p>
+            <p class="about-desc">
+              Познается что-то новое не только в природе, но и в самом себе. Многие
+              посетившие Байкал люди утверждают, что озеро оказало большое влияние
+              на их дальнейшую жизнь.
+            </p>
+
+            
+            <input class="visually-hidden" id="about-checkbox" type="checkbox" name="about-btn"/>
+            
+            <p class="about-desc about-desc-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic id fuga aliquid quo, quos eveniet ullam ipsa culpa! Dolor fugit incidunt enim repellat! Aliquid quae sunt libero nisi velit porro praesentium alias! Et in quos error laborum pariatur delectus iste repudiandae modi sit, saepe molestiae voluptate perferendis itaque suscipit, fugit eaque optio vitae non hic praesentium! Facilis aliquam voluptate modi incidunt harum similique laboriosam, quidem dicta eveniet accusantium. Deleniti, in optio. Veniam, iste? Tenetur neque aspernatur fugiat, maxime rerum porro distinctio molestias labore natus doloremque sequi asperiores atque laboriosam modi laudantium impedit mollitia totam, veniam quidem sit nemo quia odit.</p>
+            
+            <label for="about-checkbox" class="about-btn-lbl">
+              <span class="about-read">Читать подробней</span>
+              <span class="about-hide">Скрыть</span>
+            </label>
+            
+            
+          </div>
+          
+          <div class="about-video-cont"></div>
+          
+        </div>        
       </section>
 
       <!-- Фотогалерея -->
